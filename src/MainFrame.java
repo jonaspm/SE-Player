@@ -228,10 +228,10 @@ public class MainFrame extends javax.swing.JFrame {
         panelContainer1.setPreferredSize(d);
         panelContainer2.setPreferredSize(d);
         
-        jScrollPane1.repaint();
-        jScrollPane2.repaint();
         jScrollPane1.validate();
         jScrollPane2.validate();
+        jScrollPane1.repaint();
+        jScrollPane2.repaint();
         // Repaint & validate both panels
         panelContainer1.validate();
         panelContainer1.repaint();
